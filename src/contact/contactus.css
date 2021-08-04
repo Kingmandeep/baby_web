@@ -1,0 +1,88 @@
+.contact{
+    background-image: url("https://www.popsci.com/uploads/2021/03/17/ZWOGQWWYHRBZ3CI46ACJF5X5J4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(131, 121, 121); */
+  }
+  .contacthead{
+    padding-top: 100px;
+    padding-left: 7%;
+    color: rgb(150, 147, 147);
+    letter-spacing: 1px;
+  }
+  .contacthead span{
+    border-bottom: 4px solid rgb(131, 131, 131);
+    border-radius: 10px;
+  }
+  .contactbox{
+    margin-top: 50px;
+    margin-left: 15%;
+    color: rgb(141, 137, 137);
+  }
+  .contactbox h2{
+    margin-bottom: 0px;
+  }
+  .contactbox input{
+    width: 30%;
+    height: 35px;
+    padding-left:10px ;
+    background: transparent;
+    border :2px solid rgb(112, 111, 111);
+    color: rgb(5, 5, 5);
+    font-size: 18px;
+  }
+  .contactbox textarea{
+    width: 30%;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: transparent;
+    border :2px solid rgb(124, 122, 122);
+    color: rgb(112, 110, 110);
+    resize: none;
+    font-size: 18px;
+  }
+  .contactbox button{
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(55, 55, 56);
+  }
+  .contactbox button:hover{
+   background-color: rgb(138, 135, 135);
+  }
+
+  @media only screen and (max-width:800px) {
+   
+      .contactbox input{
+        width: 60%;
+        
+      }
+      .contactbox textarea{
+        width: 60%;
+        
+      }
+      .contactbox button{
+        width: 30%;
+        
+      }
+  }
+  @media only screen and (max-width:560px) {
+   
+      .contactbox input{
+        width: 80%;
+        
+      }
+      .contactbox textarea{
+        width: 80%;
+        
+      }
+      .contactbox button{
+        width: 55%;
+        
+      }
+  }

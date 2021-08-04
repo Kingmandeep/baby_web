@@ -1,0 +1,213 @@
+.footer{
+    background-color: rgb(31, 31, 31);
+  }
+  .fleft{
+    width: 30%;
+    margin-left: 10%;
+    padding-top: 20px;
+    float: left;
+  }
+  .fleft h1{
+      margin-bottom: 15px;
+  }
+  .fleft span{
+    letter-spacing: 0.5px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 26px;
+  }
+  .fleft input{
+    width: 70%;
+    height: 35px;
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+  }
+  .fleft a{
+      margin-top: 30px;
+      padding-top:0px;
+    padding-right: 20px;
+    margin: 30px auto;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .fleft a:hover{
+    color: rgb(218, 197, 170);
+  }
+  .fleft button{
+    width: 20%;
+    height: 36px;
+    padding-top: 3px;
+    background-color: rgb(35, 65, 163);
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .fright{
+    width: 30%;
+    margin-left: 10%;
+    padding-top: 20px;
+    float: left;
+    color: #fff;
+  }
+  .fright h1{
+    margin-bottom: 15px;
+}
+  .fright h2{
+    margin-bottom: 20px;
+}
+ .fright h3{
+    float: left;
+    
+  }
+ .fright a{
+    margin-left: 20px;
+    font-size: 18px;
+    
+  }
+  .fright span,a{
+    color: #fff;
+  
+  }
+  .flast{
+    float: none;
+    padding-top: 28vh;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1.5px;
+    word-spacing: 2px;
+  }
+  .flast span{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 3px solid #fff;
+  }
+
+  @media only screen and (max-width:1080px){
+    
+}
+@media only screen and (max-width:800px){
+    
+      .fleft h1{
+          margin-bottom: 10px;
+      }
+      .fleft span{
+        letter-spacing: 0.5px;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        font-size: 26px;
+      }
+      .fleft input{
+        width: 80%;
+        height: 30px;
+        margin-top: 10px;
+        font-size: 16px;
+        
+      }
+      .fleft a{
+        font-size: 16px;
+      }
+      
+      .fleft button{
+        width: 40%;
+        height: 30px;
+        padding-top: 3px;
+        background-color: rgb(35, 65, 163);
+        font-size: 14px;
+        cursor: pointer;
+      }
+      
+      .fright h1{
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+      .fright h2{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+     .fright h3{
+        float: left;
+        font-size: 18px;
+   
+      }
+     .fright a{
+        margin-left: 20px;
+        font-size: 16px;
+       
+      }
+      .fright span,a{
+        color: #fff;
+      
+      }
+      .flast{
+        float: none;
+        padding-top: 48vh;
+        letter-spacing: .5px;
+        word-spacing: 1px;
+        padding-bottom: 10px;
+      }
+      .flast span{
+        font-size: 16px;
+      }
+
+}
+
+@media only screen and (max-width:560px){
+  
+     
+      .fleft span{
+        font-size: 20px;
+      }
+      .fleft a{
+      margin: 30px auto;
+      padding-bottom: 10px;
+      font-size: 16px;
+    }
+    .fleft a:hover{
+      color: rgb(218, 185, 143);
+    }
+      .fleft input{
+        width: 85%;
+        height: 28px;
+        font-size: 14px;
+        margin-top: 15px;
+      }
+     
+      .fleft button{
+        width: 55%;
+        height: 28px;
+      }
+      
+      .fright h1{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+      .fright h2{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+     .fright h3{
+        float: left;
+        font-size: 16px;
+      }
+     .fright a{
+        margin-left: 0px;
+        font-size: 14px;
+       
+        
+      }
+      .fright span,a{
+        color: #fff;
+        font-size: 16px;
+      }
+      .flast{
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        padding-top: 35vh;
+      }
+      .flast span{
+        font-size: 14px;
+      }
+}
+

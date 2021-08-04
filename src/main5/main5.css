@@ -1,0 +1,180 @@
+.main4{
+    height: 60vh;
+    padding-top: 50px;
+   
+    background-color: rgb(228, 226, 224);
+    
+  }
+  .m4img{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+  }
+  .m4img img{
+    width: 80%;
+    box-shadow: 4px 4px 4px #888888;
+    border-radius: 4px;
+  }
+  .m4box4{
+    width: 40%;
+    float: left;
+    text-align: center;
+  }
+  .m4box4 h1{
+    margin-top: 0px;
+    color: rgb(71, 70, 70);
+    letter-spacing: 1.5px;
+    font-size: 35px;
+  }
+  .m4box4 p{
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    font-size: 18px;
+    margin-top: 22px;
+  }
+  .m4box4 ul{
+    text-align: left;
+  }
+  .m4box4 li{
+    font-size: 20px;
+    padding-top: 10px ;
+    list-style: circle;
+  }
+  @media only screen and (max-width:1080px){
+      .main4{
+          height: 32vh;
+      }
+      .m4img img{
+        width: 60%;
+      }
+      .m4box4 p{
+        letter-spacing: 0.3px;
+        word-spacing: 0px;
+        font-size: 14px;
+        margin-top: 8px;
+        float: none;
+      }
+      .m4box4 ul{
+         
+        float: left;
+      }
+      .m4box4 li{
+        font-size: 14px;
+        padding-top: 2px ;
+        list-style: circle;
+        
+      }
+  }
+
+  @media only screen and (max-width:980px){
+    .main4{
+        height: 48vh;
+      }
+      .m4box4{
+        width: 50%;
+        float: left;
+        text-align: center;
+      }
+      .m4box4 h1{
+        margin-top: 0px;
+        color: rgb(71, 70, 70);
+        letter-spacing: 1.5px;
+        font-size: 24px;
+      }
+      .m4box4 p{
+        letter-spacing: 0.3px;
+        word-spacing: 0px;
+        font-size: 14px;
+        margin-top: 8px;
+        float: none;
+      }
+      .m4box4 ul{
+         
+        float: left;
+      }
+      .m4box4 li{
+        font-size: 14px;
+        padding-top: 2px ;
+        list-style: circle;
+        
+      }
+    
+  }
+  @media only screen and (max-width:680px){
+    .main4{
+        height: 66vh;
+        padding-top: 30px;
+      }
+      .m4img{
+        width: 40%;
+        margin-left: 5%;
+      }
+      .m4img img{
+        width: 80%;
+      }
+      .m4box4{
+        width: 50%;
+        float: left;
+        text-align: center;
+      }
+      .m4box4 h1{
+        margin-top: 0px;
+        color: rgb(71, 70, 70);
+        letter-spacing: 1.5px;
+        font-size: 24px;
+      }
+      .m4box4 p{
+        letter-spacing: 0.3px;
+        word-spacing: 0px;
+        font-size: 14px;
+        margin-top: 8px;
+        float: none;
+      }
+      .m4box4 ul{
+         
+        float: left;
+      }
+      .m4box4 li{
+        font-size: 14px;
+        padding-top: 2px ;
+        list-style: circle;
+        
+      }
+    
+  }
+  @media only screen and (max-width:560px){
+    .main4{
+        height: 95vh;
+        
+      }
+      .m4img{
+        width: 90%;
+        margin-left: 5%;
+        float: left;
+        text-align: center;
+      }
+      .m4img img{
+        width: 95%;
+        float: none;
+      }
+      .m4box4{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+        float: none;
+        text-align: center;
+      }
+      .m4box4 h1{
+        font-size: 25px;
+      }
+      .m4box4 p{
+        margin-bottom: 10px;
+      }
+     
+      .m4box4 li{
+        list-style: circle;
+      }
+    
+  }
+  
+  

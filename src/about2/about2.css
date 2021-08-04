@@ -1,0 +1,173 @@
+.aboutbox2 {
+    height: 60vh;
+    padding-top: 20px;
+    padding: auto 10%;
+    background-image: url("https://media.istockphoto.com/photos/dark-color-office-poster-background-with-empty-wall-sofa-chair-plant-picture-id1216667300?k=6&m=1216667300&s=170667a&w=0&h=yALREuzc1OQGJN6GTL1QiIZudfWndjQOnJRlr7ktatE=");
+    background-size: cover;
+  }
+.aboutbox2 span{
+    border-bottom: 4px solid rgb(71, 70, 70);
+    border-radius: 10px;
+    color: rgb(255, 248, 248);
+    margin-left: 10%;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.533);
+  }
+
+  .aboutbox2 img{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 60%;
+    margin-left: 70%;
+    margin-right: 30px;
+   
+     box-shadow: 4px 4px 6px rgb(211, 211, 211) ;
+  }
+  .team{
+    float: left;
+    margin-right: 10%;
+  }
+  .aboutbox2 h2{
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 20px;
+    text-shadow: 1px 1px #888;
+    letter-spacing: 1.5px;
+    color: rgb(255, 255, 255);
+  }
+.aboutbox2 p{
+    color: #fff;
+    width: 90%;
+    margin-top: 70px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    text-shadow: 1px 0px #888;
+}
+ 
+@media  only screen and (max-width:1080px) {
+    .aboutbox2 {
+        height: 60vh;
+        
+      }
+    .aboutbox2 span{
+      
+        border-bottom: 3px ;
+        font-size: 28px;
+        margin-left: 5%;
+        float: none;
+        
+      }
+    
+      .aboutbox2 img{
+          
+        width: 75%;
+       margin-left: 5%;
+       float:none;
+      }
+      .team{
+        float:left;
+        width: 35%;
+        text-align: center;
+        margin-left: 5%;
+      }
+      .aboutbox2 h2{
+        text-align: left;
+        margin-left: 25%;
+        margin-top: 15px;
+       font-size: 24px;
+        letter-spacing: 0.4px;
+        
+      }
+    .aboutbox2 p{
+        text-align: center;
+        width: 90%;
+        margin-top:80px;
+        font-size: 24px;
+        
+        text-shadow: 1px 0px ;
+    }
+}
+@media  only screen and (max-width:800px) {
+    .aboutbox2 {
+        height: 80vh;
+        
+      }
+    .aboutbox2 span{
+      
+        border-bottom: 3px ;
+        font-size: 24px;
+        margin-left: 5%;
+        float: none;
+        
+      }
+    
+      .aboutbox2 img{
+          
+        width: 70%;
+       margin-left: 5%;
+       float:none;
+      }
+      .team{
+        float:left;
+        width: 30%;
+        text-align: center;
+        margin-left: 5%;
+      }
+      .aboutbox2 h2{
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 10px;
+       font-size: 20px;
+        letter-spacing: 0.4px;
+        
+      }
+    .aboutbox2 p{
+        text-align: center;
+        width: 90%;
+        margin-top: 20px;
+        font-size: 18px;
+        
+        text-shadow: 1px 0px ;
+    }
+}
+@media  only screen and (max-width:560px) {
+    .aboutbox2 {
+        height: 80vh;
+        
+      }
+    .aboutbox2 span{
+      
+        border-bottom: 3px ;
+        font-size: 24px;
+        margin-left: 5%;
+        float: none;
+        
+      }
+    
+      .aboutbox2 img{
+        width: 50%;
+       margin-left: 25%;
+      }
+      .team{
+        float:none;
+        width: 70%;
+        text-align: center;
+        margin-left: 5%;
+      }
+      .aboutbox2 h2{
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 10px;
+        
+        letter-spacing: 1px;
+        
+      }
+    .aboutbox2 p{
+        text-align: center;
+        width: 90%;
+        margin-top: 20px;
+        font-size: 18px;
+        
+        text-shadow: 1px 0px ;
+    }
+}

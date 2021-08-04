@@ -1,0 +1,22 @@
+.about1{
+    background-image: url("https://wallpapercave.com/wp/wp5320845.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  
+   
+  }
+  .a1box1{
+    
+    width: 40%;
+    padding: 200px 30% 160px 20%;
+    text-align: center;
+  }
+  .a1box1 h1{
+      
+    letter-spacing: 2px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px #8888;
+    
+  }
